@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checklist de socialización — Buen Perro</title>
+  <meta name="description" content="Lista interactiva de socialización del cachorro: personas, sonidos, superficies, manipulación y objetos. Tu progreso se guarda en el navegador." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐕</text></svg>" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html"><span class="paw">🐾</span> Buen Perro</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">MENÚ</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="metodo.html">El método</a></li>
+      <li><a href="cachorros.html">Cachorros</a></li>
+      <li><a href="obediencia.html">Obediencia</a></li>
+      <li><a href="conducta.html">Conducta</a></li>
+      <li><a href="juegos.html">Juegos</a></li>
+      <li><a href="checklist.html" aria-current="page">Checklist ✓</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+  <div class="wrap">
+    <div class="page-head">
+      <span class="eyebrow">Herramienta · Socialización</span>
+      <h1>Checklist de socialización del cachorro</h1>
+      <p class="lead">Marca cada experiencia cuando tu cachorro la haya vivido <strong>en positivo</strong>: relajado o curioso, con premios de por medio. Tu progreso se guarda en este navegador.</p>
+    </div>
+  </div>
+
+  <div class="progress-wrap">
+    <div class="wrap progress-row">
+      <span class="progress-label"><strong id="prog-count">0</strong>/<span id="prog-total">0</span> EXPERIENCIAS</span>
+      <div class="progress-bar" role="progressbar" aria-label="Progreso de socialización" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="prog-bar-el">
+        <div class="progress-fill" id="prog-fill"></div>
+      </div>
+      <button class="progress-reset" id="prog-reset">REINICIAR</button>
+    </div>
+  </div>
+
+  <section class="section" style="border-top:none">
+    <div class="wrap">
+      <div class="callout callout-warn reveal">
+        <strong>Las reglas del juego</strong>
+        <p>Calidad antes que cantidad: cada casilla debe ser una experiencia <em>buena</em>, no solo una exposición. Deja que el cachorro observe desde la distancia y se acerque cuando quiera; empareja lo nuevo con premios; y si ves señales de incomodidad (se aparta, bosteza, se lame la nariz), aumenta la distancia y baja la intensidad. Una mala experiencia enseña tanto como diez buenas. Antes de completar las vacunas: en brazos, en el auto o en lugares de bajo riesgo — pregunta a tu veterinario.</p>
+      </div>
+
+      <div id="checklist"></div>
+
+      <div class="callout callout-tip mt-3">
+        <strong>¿Terminaste la lista?</strong>
+        <p>No existe «socialización completa»: sigue sumando experiencias positivas toda la vida, especialmente durante la adolescencia (6–18 meses), cuando pueden reaparecer los miedos. Y si tu cachorro ya pasó la ventana (14+ semanas) sin alguna de estas experiencias, no está perdido: se trabaja igual, solo más despacio.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>🐾 Buen Perro</h4>
+        <p>Guía educativa de adiestramiento canino basada en evidencia: refuerzo positivo, bienestar animal y ciencia del comportamiento.</p>
+      </div>
+      <div>
+        <h4>Guías</h4>
+        <ul>
+          <li><a href="metodo.html">El método</a></li>
+          <li><a href="cachorros.html">Cachorros</a></li>
+          <li><a href="obediencia.html">Obediencia básica</a></li>
+          <li><a href="conducta.html">Problemas de conducta</a></li>
+          <li><a href="juegos.html">Juegos y enriquecimiento</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Para profundizar</h4>
+        <ul>
+          <li>Karen Pryor — <em>¡No lo mates… enséñale!</em></li>
+          <li>Turid Rugaas — <em>El lenguaje de los perros</em></li>
+          <li>Patricia McConnell — <em>Al otro extremo de la correa</em></li>
+          <li>Ian Dunbar — <em>Before &amp; After Getting Your Puppy</em></li>
+        </ul>
+      </div>
+    </div>
+    <p class="legal">Contenido educativo general. No sustituye la evaluación de un veterinario ni de un profesional del comportamiento: ante agresión, miedo intenso o cambios bruscos de conducta, consulta primero a tu veterinario para descartar dolor o enfermedad.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+<script src="checklist.js"></script>
+</body>
+</html>

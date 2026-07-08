@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buen Perro — Guía de adiestramiento canino en positivo</title>
+  <meta name="description" content="Guía en español de adiestramiento canino basado en ciencia: refuerzo positivo, socialización de cachorros, obediencia básica y solución de problemas de conducta." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐕</text></svg>" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html"><span class="paw">🐾</span> Buen Perro</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">MENÚ</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html" aria-current="page">Inicio</a></li>
+      <li><a href="metodo.html">El método</a></li>
+      <li><a href="cachorros.html">Cachorros</a></li>
+      <li><a href="obediencia.html">Obediencia</a></li>
+      <li><a href="conducta.html">Conducta</a></li>
+      <li><a href="juegos.html">Juegos</a></li>
+      <li><a href="checklist.html">Checklist ✓</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Guía de adiestramiento en positivo</span>
+        <h1 class="mt-1">Marca el momento, <span class="hl">premia a tiempo</span>.</h1>
+        <p class="lead mt-1">
+          Todo lo que la ciencia del comportamiento sabe hoy sobre educar a tu perro,
+          reunido en una guía clara y en español. Sin castigos, sin mitos de dominancia:
+          refuerzo positivo que funciona.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="cachorros.html">Tengo un cachorro</a>
+          <a class="btn btn-ghost" href="obediencia.html">Enseñar órdenes básicas</a>
+        </div>
+      </div>
+      <div class="clicker-stage">
+        <button class="clicker" data-counter="#hero-count" aria-label="Clicker de adiestramiento: haz clic para escuchar el sonido del marcador">
+          <span class="ring" aria-hidden="true"></span>
+          <span class="plate" aria-hidden="true">CLIC</span>
+        </button>
+        <p class="clicker-count"><strong id="hero-count">0</strong> Pruébalo: así suena un clicker.<br />Clic = «eso, exactamente eso» + premio.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PILARES ============ -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Los cuatro pilares</span>
+        <h2>Lo que hace que cualquier técnica funcione</h2>
+        <p class="muted">Da igual la orden o el problema: detrás de todo buen adiestramiento están estas cuatro ideas.</p>
+      </div>
+      <div class="grid grid-2">
+        <div class="card reveal">
+          <span class="icon">⏱️</span>
+          <h3>Timing: marca en el segundo exacto</h3>
+          <p>El perro asocia el premio con lo que hacía <em>en ese instante</em>. Un marcador (clic o la palabra «¡sí!») señala el momento preciso del acierto, y el premio llega después. Si marcas tarde, premias otra cosa.</p>
+        </div>
+        <div class="card reveal">
+          <span class="icon">🥩</span>
+          <h3>Motivación: paga con lo que a él le importa</h3>
+          <p>Un refuerzo solo lo es si tu perro lo valora: comida jugosa, juego, caricias o salir a pasear. Usa premios pequeños y de alto valor (pollo, queso, salchicha) para lo difícil, y croquetas normales para repasar lo fácil.</p>
+        </div>
+        <div class="card reveal">
+          <span class="icon">🪜</span>
+          <h3>Criterio: sube la dificultad de a poco</h3>
+          <p>Divide cada conducta en pasos pequeños y sube de nivel solo cuando acierta 8 de cada 10 veces. Las «3 D» — distancia, duración y distracción — se aumentan de una en una, nunca las tres a la vez.</p>
+        </div>
+        <div class="card reveal">
+          <span class="icon">🔁</span>
+          <h3>Consistencia: sesiones cortas, reglas claras</h3>
+          <p>Mejor 3 sesiones de 5 minutos al día que una de media hora. Y toda la familia con las mismas reglas: si el sofá está prohibido, lo está siempre y para todos. La incoherencia es el error #1 de los tutores.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GUÍAS ============ -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Las guías</span>
+        <h2>Empieza por donde está tu perro</h2>
+      </div>
+      <div class="grid grid-2">
+        <a class="card reveal" href="metodo.html">
+          <span class="icon">🧠</span>
+          <h3>El método: la ciencia detrás</h3>
+          <p>Condicionamiento clásico y operante, el clicker, luring, shaping y capturing, y por qué la teoría de la dominancia quedó desacreditada.</p>
+          <span class="go">LEER LA GUÍA →</span>
+        </a>
+        <a class="card reveal" href="cachorros.html">
+          <span class="icon">🐶</span>
+          <h3>Cachorros: de 8 semanas a 6 meses</h3>
+          <p>La ventana de socialización, control de esfínteres, inhibición de mordida, el transportín y las primeras noches, semana a semana.</p>
+          <span class="go">LEER LA GUÍA →</span>
+        </a>
+        <a class="card reveal" href="obediencia.html">
+          <span class="icon">🎓</span>
+          <h3>Obediencia básica: las 7 órdenes</h3>
+          <p>Sienta, échate, quieto, ven, junto, suelta y déjalo, paso a paso, con el criterio para subir de nivel en cada una.</p>
+          <span class="go">LEER LA GUÍA →</span>
+        </a>
+        <a class="card reveal" href="conducta.html">
+          <span class="icon">🔧</span>
+          <h3>Problemas de conducta</h3>
+          <p>Tirar de la correa, ladridos, saltar sobre las visitas, ansiedad por separación, protección de recursos y cuándo buscar a un profesional.</p>
+          <span class="go">LEER LA GUÍA →</span>
+        </a>
+        <a class="card reveal" href="juegos.html">
+          <span class="icon">🎾</span>
+          <h3>Juegos y enriquecimiento</h3>
+          <p>Juegos de olfato, comida que trabaja, tug con reglas y el menú diario de un perro satisfecho. La prevención más divertida.</p>
+          <span class="go">LEER LA GUÍA →</span>
+        </a>
+        <a class="card reveal" href="checklist.html">
+          <span class="icon">📋</span>
+          <h3>Checklist de socialización</h3>
+          <p>57 experiencias para marcar durante la ventana crítica del cachorro, con tu progreso guardado en el navegador.</p>
+          <span class="go">ABRIR LA HERRAMIENTA →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MITOS ============ -->
+  <section class="section section-dark">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Antes de empezar</span>
+        <h2>Cinco mitos que puedes olvidar hoy</h2>
+        <p class="lead">Buena parte de lo que «todo el mundo sabe» sobre perros viene de estudios de los años 40 que ya fueron corregidos.</p>
+      </div>
+      <div class="grid grid-2">
+        <div class="myth reveal">
+          <span class="tag">Mito</span>
+          <p class="false">«Tienes que ser el macho alfa de la manada.»</p>
+          <p class="true">La teoría de la dominancia nació de observar lobos cautivos sin parentesco. El propio investigador que la popularizó, David Mech, la corrigió: las manadas salvajes son familias, no jerarquías por combate. Tu perro no intenta dominarte; intenta entender qué funciona.</p>
+        </div>
+        <div class="myth reveal">
+          <span class="tag">Mito</span>
+          <p class="false">«Restriega su hocico en el pipí para que aprenda.»</p>
+          <p class="true">Solo le enseña a tener miedo de hacer sus necesidades delante de ti (y a esconderse para hacerlas). El control de esfínteres se logra con supervisión, rutina y premiar en el lugar correcto.</p>
+        </div>
+        <div class="myth reveal">
+          <span class="tag">Mito</span>
+          <p class="false">«Se le pasará solo cuando crezca.»</p>
+          <p class="true">Los miedos y malos hábitos se consolidan con la práctica, no desaparecen. Cuanto antes se trabaja un problema, más fácil y barato es resolverlo.</p>
+        </div>
+        <div class="myth reveal">
+          <span class="tag">Mito</span>
+          <p class="false">«Los premios son soborno; debe obedecer por respeto.»</p>
+          <p class="true">Nadie trabaja gratis, tampoco tu perro. El premio es un salario que luego se vuelve intermitente y se sustituye en parte por premios de la vida real (juego, paseo, olfateo). Soborno es enseñar el premio <em>antes</em> de pedir; refuerzo es pagarlo <em>después</em> del acierto.</p>
+        </div>
+        <div class="myth reveal">
+          <span class="tag">Mito</span>
+          <p class="false">«Mueve la cola, así que está feliz.»</p>
+          <p class="true">La cola en movimiento solo indica activación emocional. Un perro tenso, con cola alta y rígida moviéndose rápido, puede estar a punto de reaccionar. Lee el cuerpo completo: orejas, mirada, postura, boca.</p>
+        </div>
+        <div class="myth reveal">
+          <span class="tag">Mito</span>
+          <p class="false">«Hay razas imposibles de educar.»</p>
+          <p class="true">Todas las razas (y mestizos) aprenden con los mismos principios. Cambia la motivación, el nivel de energía y el tiempo necesario, no las reglas del aprendizaje.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section">
+    <div class="wrap two-col">
+      <div class="section-head reveal" style="margin-bottom:0">
+        <span class="eyebrow">Preguntas frecuentes</span>
+        <h2>Las dudas con las que todos empiezan</h2>
+        <p class="muted mt-1">Respuestas cortas aquí; el detalle completo está en cada guía.</p>
+      </div>
+      <div class="reveal">
+        <details>
+          <summary>¿A qué edad puedo empezar a entrenar?</summary>
+          <p class="answer">Desde el primer día en casa (idealmente 8 semanas). Un cachorro de 2 meses puede aprender «sienta», «ven» y su nombre. La socialización, de hecho, tiene fecha límite: aprovecha antes de las 12–14 semanas.</p>
+        </details>
+        <details>
+          <summary>¿Cuánto deben durar las sesiones?</summary>
+          <p class="answer">De 3 a 5 minutos con cachorros, hasta 10 con adultos, varias veces al día. Termina siempre con un acierto fácil, con ganas de más.</p>
+        </details>
+        <details>
+          <summary>¿Necesito un clicker sí o sí?</summary>
+          <p class="answer">No. Una palabra corta y consistente («¡sí!», «bien») funciona como marcador. El clicker solo es más preciso y siempre suena igual.</p>
+        </details>
+        <details>
+          <summary>¿Es tarde para un perro adulto?</summary>
+          <p class="answer">Nunca. Los adultos aprenden igual (a veces más rápido, porque se concentran mejor que un cachorro). Solo los hábitos muy ensayados tardan más en cambiarse.</p>
+        </details>
+        <details>
+          <summary>¿Castigar funciona?</summary>
+          <p class="answer">El castigo físico o intimidatorio puede suprimir la conducta a corto plazo, pero no enseña qué hacer en su lugar y aumenta el riesgo de miedo y agresión (está asociado a más problemas de conducta en múltiples estudios). Por eso las principales asociaciones veterinarias de comportamiento lo desaconsejan.</p>
+        </details>
+        <details>
+          <summary>¿Cuándo debo buscar a un profesional?</summary>
+          <p class="answer">Ante cualquier agresión (gruñidos con marcaje o mordidas), miedo intenso, ansiedad por separación severa o si llevas semanas sin avances. Busca educadores en positivo certificados o veterinarios etólogos.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>🐾 Buen Perro</h4>
+        <p>Guía educativa de adiestramiento canino basada en evidencia: refuerzo positivo, bienestar animal y ciencia del comportamiento.</p>
+      </div>
+      <div>
+        <h4>Guías</h4>
+        <ul>
+          <li><a href="metodo.html">El método</a></li>
+          <li><a href="cachorros.html">Cachorros</a></li>
+          <li><a href="obediencia.html">Obediencia básica</a></li>
+          <li><a href="conducta.html">Problemas de conducta</a></li>
+          <li><a href="juegos.html">Juegos y enriquecimiento</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Para profundizar</h4>
+        <ul>
+          <li>Karen Pryor — <em>¡No lo mates… enséñale!</em></li>
+          <li>Turid Rugaas — <em>El lenguaje de los perros</em></li>
+          <li>Patricia McConnell — <em>Al otro extremo de la correa</em></li>
+          <li>Ian Dunbar — <em>Before &amp; After Getting Your Puppy</em></li>
+        </ul>
+      </div>
+    </div>
+    <p class="legal">Contenido educativo general. No sustituye la evaluación de un veterinario ni de un profesional del comportamiento: ante agresión, miedo intenso o cambios bruscos de conducta, consulta primero a tu veterinario para descartar dolor o enfermedad.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
