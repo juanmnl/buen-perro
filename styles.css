@@ -607,6 +607,7 @@ details .answer {
   padding: 1.5rem;
   display: grid;
   gap: 0.6rem;
+  color: var(--ink);
 }
 .myth .false {
   font-family: var(--font-display);
