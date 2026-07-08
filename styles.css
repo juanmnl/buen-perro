@@ -659,6 +659,17 @@ details .answer {
   font-size: 0.85rem;
   color: #8b9a72;
 }
+.footer .credit {
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  color: #8b9a72;
+}
+.footer .credit a {
+  color: #c4cdb0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.footer .credit a:hover { color: var(--ball); }
 
 /* ---------- Encabezado de página interior ---------- */
 
