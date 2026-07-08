@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://juanmnl.github.io/buen-perro/sitemap.xml
